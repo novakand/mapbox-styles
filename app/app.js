@@ -10,7 +10,6 @@ async function onInit() {
 
 function onInitMapsAPI() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoibm92YWthbmQiLCJhIjoiY2p3OXFlYnYwMDF3eTQxcW5qenZ2eGNoNCJ9.PTZDfrwxfMd-hAwzZjwPTg';
-
     map = new mapboxgl.Map(mapOptions);
     map.on('load', () => {
         const width = 22;
