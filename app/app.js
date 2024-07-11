@@ -13,7 +13,6 @@ function onInitMapsAPI() {
 
     map = new mapboxgl.Map(mapOptions);
     map.on('load', () => {
-
         const width = 22;
         const height = 30;
         const el = document.createElement('div');
